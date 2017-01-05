@@ -39,4 +39,6 @@
 
 >print in test
 
+即`pragma Debug(testf);`语句生效。
+
 
