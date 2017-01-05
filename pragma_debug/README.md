@@ -16,12 +16,13 @@
 
 首先执行`gnatclean main`，清理已编译的内容。
 
-使用``-gnata`打开所有的检查和调试信息(Assertions enabled. Pragma Assert/Debug to be activated)。
+使用`-gnata`打开所有的检查和调试信息(Assertions enabled. Pragma Assert/Debug to be activated)。
 
 执行`gnatmake -gnata main.adb`命令。
 
 编译后，main的运行结果是：
 >print in test
+
 >print in test
 
 即`pragma Debug(testf);`语句生效。
@@ -35,6 +36,7 @@
 
 编译后，main的运行结果是：
 >print in test
+
 >print in test
 
 
