@@ -2,8 +2,11 @@
 
 `gnatmake main.adb`将执行如下命令：
 >gcc -c main.adb
+
 >gcc -c test.adb
+
 >gnatbind -x main.ali
+
 >gnatlink main.ali
 
 编译后，main的运行结果是：
