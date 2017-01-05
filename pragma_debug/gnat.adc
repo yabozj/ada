@@ -1,0 +1,2 @@
+--使pragma Debug生效
+pragma Debug_Policy (ON);
